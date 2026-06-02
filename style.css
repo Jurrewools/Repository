@@ -1,0 +1,89 @@
+.NavigatieBar {
+    display: flex;
+}
+
+.NavigatieBar a {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #eaeaa2;
+    color: black;
+    font-weight: bold;
+    border-right: 2px solid white;
+    transition: 1s;
+}
+
+.NavigatieBar a:hover {
+    background-color: #6fa8c9;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.content {
+    width: 95%;
+    margin: 0 auto;
+    background-color: #fffbf5;
+    padding: 40px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+.titel {
+    color: #1e5aa8;
+    font-size: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.blauw {
+    color: blue;
+}
+
+.wit {
+    color: white;
+}
+
+.rood {
+    color: red;
+}
+
+img {
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+video {
+    display: block;
+    margin: 20px auto;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto;
+}
+
+.InTex {
+    text-align: center;
+}
+
+.NavigatieBar a.active {
+    background-color: #6fa8c9;
+    color: black;
+}
+
+.TekstFlaticon {
+    text-align: center;
+    display: block;
+    color: #1e5aa8;
+}
